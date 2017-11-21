@@ -13,6 +13,7 @@ button, select {
 select {
     -moz-appearance: none;
     -webkit-appearance:none;
+    background: transparent;
     background-image: url(../img/arrow-expand-select.png);
     background-repeat: no-repeat;
     background-position: 90% 50%;
@@ -419,7 +420,7 @@ img.photo-12 { grid-area: photo-12; margin-top: 5%; margin-bottom: -5%;}
         margin: 10% 0;
     }
     #result-in-numbers .container img {
-        margin: 15% 0;
+        margin: 10% 0;
     }
     #result-in-numbers .container .number {
         font-size: 37px;
